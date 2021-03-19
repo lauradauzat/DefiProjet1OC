@@ -2,17 +2,19 @@
 
 body {
     font-family: 'Roboto';
+    text-align: center;
 }
 header {
     display : flex; 
     justify-content: space-between;
     align-items: center;
     border-style: solid;
+    height: 80px;
 }
 
 #logo {
     width: 250px; 
-    height: 100px; 
+    height: 80px; 
     object-fit: cover;
     border-style: solid;
 }
@@ -20,8 +22,10 @@ header {
 .menu {
     padding-left: 1em ;
     border-style: solid;
-    height: 100%; 
-    /*Comment fit .menu verticalement au parent? */ 
+    height: 80px;
+    display: flex;
+    align-items: center;
+   
 }
 .menu li {
     display: inline-block;
@@ -31,4 +35,40 @@ header {
 
 .menu a {
     text-decoration: none;
+}
+
+#caroussel {
+  
+    object-fit: cover;
+}
+
+main {
+    display : flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    border: solid orange; 
+}
+
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+    display : flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row ;
+    border: solid blue; 
+}
+
+#container {
+    display: flex;
+    align-items: stretch; 
+    border: solid red; 
+    justify-content: space-evenly; 
+}
+
+.card {
+    border: solid yellow; 
+    
+    
 }
