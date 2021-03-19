@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto';
+}
+header {
+    display : flex; 
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+}
+
+#logo {
+    width: 250px; 
+    height: 100px; 
+    object-fit: cover;
+    border-style: solid;
+}
+
+.menu {
+    padding-left: 1em ;
+    border-style: solid;
+    height: 100%; 
+    /*Comment fit .menu verticalement au parent? */ 
+}
+.menu li {
+    display: inline-block;
+    padding-left: 1em;
+    border-style: solid;
+}
+
+.menu a {
+    text-decoration: none;
+}
