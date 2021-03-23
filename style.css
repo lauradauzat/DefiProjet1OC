@@ -38,8 +38,9 @@ header {
 }
 
 #caroussel {
-  
-    object-fit: cover;
+    width: 100%;
+    height: 400px; 
+    background-image:url(Images/backgroung_image.jpg) ;
 }
 
 main {
