@@ -3,6 +3,12 @@
 body {
     font-family: 'Roboto';
     text-align: center;
+    color: grey
+    
+}
+
+h3 {
+    color: black
 }
 header {
     display : flex; 
@@ -12,11 +18,29 @@ header {
     height: 80px;
 }
 
-#logo {
+#caroussel {
+    width: 100%;
+    height: 400px; 
+    background-image:url(Images/backgroung_image.jpg) ;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+
+header #logo {
     width: 250px; 
     height: 80px; 
     object-fit: cover;
     border-style: solid;
+}
+
+#caroussel #logo {
+    width: 150px; 
+    height: 60px; 
+    object-fit: cover;
 }
 
 .menu {
@@ -37,11 +61,7 @@ header {
     text-decoration: none;
 }
 
-#caroussel {
-    width: 100%;
-    height: 400px; 
-    background-image:url(Images/backgroung_image.jpg) ;
-}
+
 
 main {
     display : flex; 
@@ -55,21 +75,87 @@ section {
     margin-left: 10%;
     margin-right: 10%;
     display : flex; 
-    justify-content: center;
-    align-items: center;
-    flex-direction: row ;
     border: solid blue; 
+    
+}
+
+#intro {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #container {
-    display: flex;
-    align-items: stretch; 
+
     border: solid red; 
-    justify-content: space-evenly; 
+    display: flex; 
+    margin-bottom: 1em;
+    
+    
 }
 
 .card {
     border: solid yellow; 
+    flex: 1;
+}
+
+.card img {
+    padding-top: 0.5em;
+}
+
+#container .card {
+    font-size: small;
+}
+
+#shorter {
+    margin-top: 2em;
+    padding-left: 20%;
+    padding-right: 20%;
+    flex-direction: column; 
+
+}
+
+#sign {
+    margin-top: 0em;
+    font-weight: lighter;
+    font-size: 15px;
+}
+footer {
+    background-color: blueviolet;
+    color: lightgray;
+    padding-top: 1em;
+    border:solid  lightseagreen; 
+
+    
+}
+
+footer img {
+    height: 1.5em;
+    border : solid greenyellow; 
+    margin-left: 5%;
+    margin-right: 5%;  
+}
+
+#logo {
+    border: solid blue; 
+    display: flex;
+    justify-content: center;
+}
+
+#footer-menu {
+    display: flex;
+    border: solid red;
+    
+}
+
+
+#footer-menu ul {
+    border: solid orange;
+    margin: 0 auto; 
+    list-style-position: inside;
+    
+
     
     
 }
+
+
