@@ -24,7 +24,7 @@ header {
     display : flex; 
     justify-content: space-between;
     align-items: center;
-    border-style: solid;
+    
     height: 85px;
 }
 
@@ -78,15 +78,12 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column ;
-    border: solid orange; 
 }
 
 section {
     margin-left: 10%;
     margin-right: 10%;
     display : flex; 
-    border: solid green; 
-    
 }
 
 #intro {
@@ -96,15 +93,11 @@ section {
 
 #container {
 
-    border: solid red; 
     display: flex; 
-    margin-bottom: 1em;
-    
-    
+    margin-bottom: 1em;  
 }
 
 .card {
-    border: solid yellow; 
     flex: 1;
 }
 
@@ -133,20 +126,15 @@ footer {
     background-color: blueviolet;
     color: lightgray;
     padding-top: 1em;
-    border:solid  lightseagreen; 
-
-    
 }
 
 footer img {
     height: 1.5em;
-    border : solid greenyellow; 
     margin-left: 5%;
     margin-right: 5%;  
 }
 
 #logo {
-    border: solid blue; 
     display: flex;
     justify-content: center;
 }
@@ -158,16 +146,12 @@ footer img {
 }
 
 #footer-menu {
-    display: flex;
-    border: solid red;
-    
+    display: flex; 
 }
 
 
 #footer-menu ul {
-    border: solid orange;
-    text-align: right;
-    
+    text-align: right;   
 }
 
 #footer-menu h4 {
